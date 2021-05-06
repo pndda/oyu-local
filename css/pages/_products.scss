@@ -1,0 +1,10 @@
+.artwork__grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(560px, 560px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(560px, 560px));
+    grid-gap: 1rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

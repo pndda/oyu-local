@@ -1,0 +1,29 @@
+.hide-mobile {
+    display: none;
+}
+
+.show-on-mobile {
+    display: block;
+}
+
+nav ul li{
+    letter-spacing: 0.2px;
+}
+
+
+// -------------MEDIA QUERIES--------------
+@media (min-width: 576px) {
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 1050px) {
+    .show-on-mobile {
+        display: none;
+    }
+    .hide-mobile  {
+        display: block;
+    }
+}
+
+

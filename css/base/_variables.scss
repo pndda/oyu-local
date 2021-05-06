@@ -1,0 +1,38 @@
+// -------------THEME COLORS--------------
+$black: #030303;
+
+// -------------THEME FONTS--------------
+
+body{
+    font-family: Helvetica;
+    background-color: $black;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+// a:hover{
+// //    
+// }
+
+a:visited{
+    text-decoration: underline;
+}
+
+
+
+// -------------MEDIA QUERIES--------------
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
