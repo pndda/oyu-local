@@ -7,7 +7,11 @@ footer nav ul li{
     padding: 3px 0;
     letter-spacing: 0.8px;
 }
-
+.main-footer ul li a:hover{
+       color: white;
+       border-bottom: 0.8px solid white;
+       transition: all 0.5s;
+}
 
 
 .footer-credentials{
@@ -19,6 +23,10 @@ footer nav ul li{
     a{
         color: #25292c;
         border-bottom: 0.8px solid  #25292c;
+    }
+    a:hover{
+        color: #2f3438;
+        border-bottom: 0.8px solid  #2f3438;
     }
 }
 

@@ -13,10 +13,11 @@ body{
 a{
     color: white;
     text-decoration: none;
+ 
 }
-// a:hover{
-// border-bottom: 0.8px solid white;
-// }
+a:hover{
+    transition: all 1s;
+}
 
 
 
