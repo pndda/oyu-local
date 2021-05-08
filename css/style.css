@@ -185,10 +185,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: underline;
-}
-
 .hide-mobile {
   display: none;
 }
@@ -218,6 +214,12 @@ nav ul li {
   z-index: 30;
   padding: 50px;
   background: #030303;
+}
+
+.main-navbar .navbar-logo:hover {
+  color: white;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .main-nav {
@@ -258,11 +260,11 @@ nav ul li {
 }
 
 .main-navbar .main-menu .menu-item a:hover {
-  text-decoration: underline;
+  border-bottom: 0.8px solid white;
 }
 
 .main-navbar .main-menu .menu-item a:active {
-  text-decoration: underline;
+  border-bottom: 0.8px solid white;
 }
 
 @media (min-width: 1200px) {
@@ -288,7 +290,9 @@ nav ul li {
 }
 
 .mobile-navbar .logo:hover {
-  text-decoration: underline;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
 }
 
 @media (min-width: 567px) {
@@ -467,7 +471,7 @@ footer nav ul li {
 
 .footer-credentials a {
   color: #25292c;
-  text-decoration: underline;
+  border-bottom: 0.8px solid  #25292c;
 }
 
 .footer-cred__left {
@@ -500,7 +504,7 @@ footer nav ul li {
   }
   .footer-credentials a {
     color: #25292c;
-    text-decoration: underline;
+    border-bottom: 0.8px solid  #25292c;
   }
   .footer-credentials .footer-cred__left {
     -webkit-box-pack: start;
@@ -550,6 +554,7 @@ footer nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
+  margin: 50px 0;
 }
 
 .artwork__grid {

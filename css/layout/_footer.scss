@@ -18,7 +18,7 @@ footer nav ul li{
     }
     a{
         color: #25292c;
-        text-decoration: underline;
+        border-bottom: 0.8px solid  #25292c;
     }
 }
 
@@ -41,7 +41,7 @@ footer nav ul li{
         flex-wrap: wrap;
         a{
             color: #25292c;
-            text-decoration: underline;
+            border-bottom: 0.8px solid  #25292c;
         }
 
     .footer-cred__left{

@@ -7,7 +7,10 @@
     padding: 50px;
     background: $black;
 
-
+.navbar-logo:hover{
+  color: white;  
+  transform: scale(1.02);
+}
 
 
 }
@@ -37,11 +40,11 @@
         }
 
         a:hover{
-            text-decoration: underline;
+           border-bottom: 0.8px solid white
         }
 
         a:active{
-            text-decoration: underline;
+            border-bottom: 0.8px solid white
         }
 
  
@@ -80,9 +83,11 @@
         letter-spacing: 0.8px;
     }
     .logo:hover{
-        text-decoration: underline;
+        transform: scale(1.1);
+        color: white;
     }
 }
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 567px) {
