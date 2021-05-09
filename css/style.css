@@ -465,6 +465,10 @@ footer nav ul li {
   letter-spacing: 0.8px;
 }
 
+.main-footer ul li a {
+  font-size: 0.8rem;
+}
+
 .main-footer ul li a:hover {
   color: white;
   border-bottom: 0.8px solid white;
@@ -473,6 +477,7 @@ footer nav ul li {
 }
 
 .footer-credentials {
+  color: white;
   margin-top: 20px;
   font-size: 0.8rem;
 }
@@ -482,13 +487,13 @@ footer nav ul li {
 }
 
 .footer-credentials a {
-  color: #25292c;
-  border-bottom: 0.8px solid  #25292c;
+  color: white;
+  border-bottom: 0.8px solid  white;
 }
 
 .footer-credentials a:hover {
-  color: #2f3438;
-  border-bottom: 0.8px solid  #2f3438;
+  color: white;
+  border-bottom: 0.8px solid  white;
 }
 
 .footer-cred__left {
@@ -515,13 +520,8 @@ footer nav ul li {
         -ms-flex-align: center;
             align-items: center;
     font-size: 0.8rem;
-    color: #25292c;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .footer-credentials a {
-    color: #25292c;
-    border-bottom: 0.8px solid  #25292c;
   }
   .footer-credentials .footer-cred__left {
     -webkit-box-pack: start;
@@ -549,7 +549,7 @@ footer nav ul li {
   text-align: center;
   color: white;
   letter-spacing: 0.2px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 1050px) {
@@ -561,7 +561,7 @@ footer nav ul li {
     text-align: center;
     color: white;
     letter-spacing: 0.2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -571,7 +571,7 @@ footer nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  margin: 50px 0;
+  margin: 50px 0 100px 0;
 }
 
 .artwork__grid {
