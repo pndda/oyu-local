@@ -1,5 +1,12 @@
 .footer-nav{
-    padding: 50px 50px 25px 50px;
+    padding: 50px 30px 25px 30px;
+}
+
+@media (min-width: 1050px) {
+
+    .footer-nav{
+        padding: 50px 50px 25px 50px;
+    }
 }
 
 footer nav ul li{
@@ -20,42 +27,22 @@ footer nav ul li{
 
 .footer-credentials{
     color: white;
-    margin-top: 20px;
-    font-size: 0.8rem;
+    margin-top: 1.7rem;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     div{
         padding: 3px 0;
     }
-    a{
-        color: white;
-        border-bottom: 0.8px solid  white;
-    }
+    // a{
+    //     color: white;
+    //     border-bottom: 0.8px solid  white;
+    // }
     a:hover{
         color: white;
         border-bottom: 0.8px solid  white;
     }
 }
 
-.footer-cred__left{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 1050px) {
-    
-    .footer-credentials{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.8rem;
-        flex-wrap: wrap;
-       
-
-    .footer-cred__left{
-        justify-content: start;
-    }
-    }
-
-}
